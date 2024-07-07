@@ -49,8 +49,6 @@ Abra o projeto no MPLAB X IDE.
 
 5. Carregue o firmware no microcontrolador.
 
-![Logo](https://via.placeholder.com/150)
-
 # Projeto Cofre Eletrônico
 
 Bem-vindo ao Projeto Cofre Eletrônico! Este projeto é uma proposta de solução para um trabalho escolar, desenvolvido com o objetivo de aprender e aplicar conceitos de eletrônica e programação embarcada.
