@@ -1,55 +1,6 @@
-# Projeto Cofre com PIC16F886
-
-![Logo](https://via.placeholder.com/150)
-
-Bem-vindo ao Projeto Cofre Eletrônico! Este projeto é uma proposta de solução para um trabalho escolar, desenvolvido com o objetivo de aprender e aplicar conceitos de eletrônica e programação embarcada.
-
-## Índice
-
-- [Sobre](#sobre)
-- [Recursos](#recursos)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
-- [Contato](#contato)
-
-## Sobre
-
-O Projeto Cofre Eletrônico foi desenvolvido como parte de um trabalho escolar para fornecer uma solução de controle de acesso utilizando um teclado matricial e senha. Este projeto é puramente educacional e não é indicado para aplicações de segurança real.
-
-## Recursos
-
-- **Teclado Matricial**: Captura e validação de entrada de senha.
-- **Display de 7 Segmentos**: Feedback visual durante a entrada da senha.
-- **Motor de Passo**: Controle de abertura e fechamento do cofre.
-- **Segurança de Senha**: Validação e armazenamento seguro da senha.
-- **Feedback de Erro/Sucesso**: Indicação visual de sucesso ou erro na entrada da senha.
-
-## Instalação
-
-### Pré-requisitos
-
-- **Compilador XC8**
-- **MPLAB X IDE**
-- **Microcontrolador PIC16F886**
-- **SimulIDE**
-
-### Passos para Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-cofre-eletronico.git
-2. Navegue até o diretório do projeto: cd projeto-cofre-eletronico
-Abra o projeto no MPLAB X IDE.
-
-3. Conecte o microcontrolador PIC16F886 à sua placa de desenvolvimento.
-
-4. Compile o código usando o compilador XC8.
-
-5. Carregue o firmware no microcontrolador.
-
 # Projeto Cofre Eletrônico
+
+![Logo](https://github.com/DouglasOliveiraC/CofrePIC/blob/main/telaNPI7.png)
 
 Bem-vindo ao Projeto Cofre Eletrônico! Este projeto é uma proposta de solução para um trabalho escolar, desenvolvido com o objetivo de aprender e aplicar conceitos de eletrônica e programação embarcada.
 
@@ -75,6 +26,7 @@ O Projeto Cofre Eletrônico foi desenvolvido como parte de um trabalho escolar p
 - **Segurança de Senha**: Validação e armazenamento seguro da senha.
 - **Feedback de Erro/Sucesso**: Indicação visual de sucesso ou erro na entrada da senha.
 - **Timeout na Inserção do teclado**: Um timeout de 1 minuto para inserção de senha no teclado foi estabelecido.
+
 ## Instalação
 
 ### Pré-requisitos
@@ -96,7 +48,7 @@ O Projeto Cofre Eletrônico foi desenvolvido como parte de um trabalho escolar p
    ```
 3. Abra o projeto no MPLAB X IDE.
 
-4. Conecte o microcontrolador PIC16F886 à sua placa de desenvolvimento.
+4. Abra o arquivo de simulação.
 
 5. Compile o código usando o compilador XC8.
 
@@ -107,7 +59,7 @@ O Projeto Cofre Eletrônico foi desenvolvido como parte de um trabalho escolar p
 Operação Básica
 
 - Ligue o sistema: Aperte "*" por 2 seg aproximadamente.
-- Digite a senha: Utilize o teclado matricial para inserir a senha de 4 dígitos após mensagem "0000", logo após para abrir apenas pressione "*" e digite a senha.
+- Digite a senha: Utilize o teclado matricial para inserir a senha de 4 dígitos após mensagem "0000", logo após para abrir apenas pressione "*" e digite a senha, pressione "#" para validar as operações.
 - A senha correta acionará o motor de passo para abrir o cofre.
 - A senha incorreta exibirá um erro no display de 7 segmentos.
 
