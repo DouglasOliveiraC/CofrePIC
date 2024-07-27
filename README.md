@@ -39,13 +39,9 @@ O Projeto Cofre Eletrônico foi desenvolvido como parte de um trabalho escolar p
 ### Passos para Instalação
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-cofre-eletronico.git
-   ```
+   
 2. Navegue até o diretório do projeto: 
-   ```bash
-   cd projeto-cofre-eletronico
-   ```
+  
 3. Abra o projeto no MPLAB X IDE.
 
 4. Abra o arquivo de simulação.
